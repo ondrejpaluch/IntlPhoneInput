@@ -44,7 +44,7 @@ public class IntlPhoneInput extends RelativeLayout {
     private CountriesFetcher.CountryList mCountries;
     private IntlPhoneInputListener mIntlPhoneInputListener;
 
-    private String mHint;
+    private String mHint = "";
 
     /**
      * Constructor
